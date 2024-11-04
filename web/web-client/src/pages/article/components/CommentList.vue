@@ -120,7 +120,7 @@ const getUserInfo = async () => {
     isLoggedIn.value = true;
   }
 }
-
+ddd
 const isLoggedIn = ref(false);
 const userId = useCookie('user_id');
 const userInfo = ref<UserInfoType>();
